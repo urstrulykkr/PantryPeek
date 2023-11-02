@@ -1,0 +1,21 @@
+h2 :scope {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(3, 3, 82);
+    font-weight: bold;
+}
+
+select {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 30px;
+}
+
+.product-container {
+    margin-top: 45px;
+    display: flex;
+    flex-flow: row wrap;
+}

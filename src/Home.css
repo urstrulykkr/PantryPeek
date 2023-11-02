@@ -1,0 +1,153 @@
+/* Common styles for all screen sizes */
+.logo h1 {
+  width: 85%;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  color: #53bb64;
+  font-size: 2rem;
+  margin: 20px;
+  margin-top: 0 !important;
+}
+
+.logo {
+  display: flex !important;
+
+}
+
+.logo-img {
+  width: 8%;
+  margin-left: 5px;
+}
+
+.welcome-text {
+  text-align: left;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 5rem;
+  align-items: center; /* Center horizontally and vertically */
+  margin-bottom: 80px;
+
+}
+
+.intro {
+  font-size: 5rem;
+}
+
+.sub-intro {
+  font-size: 4rem;
+}
+
+.find-button {
+  background: linear-gradient(135deg, #92d362, #16f03a);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 2rem; /* Adjust font size for smaller screens */
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  width: 20%;
+  margin-top: 20px; /* Add top margin to center vertically */
+}
+
+.link {
+  text-decoration: none !important;
+  color: rgb(3, 3, 82);
+}
+
+.save-animation {
+  font-size: 4rem;
+  transition: opacity 1.5s ease-in-out;
+  animation: fadeInOut 3s infinite;
+  background-color: #92d362;
+}
+
+
+
+/* Home.css */
+/* ... (existing styles) */
+
+/* Style for the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align links to the top-right corner */
+  padding: 0;
+  margin: 20px;
+  
+}
+
+.li {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.nav-links li {
+  margin-left: 20px; /* Adjust the spacing between links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #53bb64; /* Green text color */
+  font-weight: bold; /* Bold font weight */
+  font-size: 1.2rem; /* Adjust font size */
+  padding: 10px 15px; /* Adjust padding around the links */
+  border: 2px solid #53bb64; /* Add a border around the links */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background 0.3s ease, color 0.3s ease; /* Add hover effect */
+}
+
+/* Add hover effect for links */
+.nav-links a:hover {
+  background: #53bb64;
+  color: #fff; /* Change text color on hover */
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap; /* Wrap links to the next line on smaller screens */
+    justify-content: center; /* Center the links on smaller screens */
+  }
+
+  .nav-links li {
+    margin: 10px; /* Adjust the spacing for smaller screens */
+  }
+}
+
+/* ... (existing styles) */
+
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  67% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .rigthContent img {
+    max-width: 40%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .find-button {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    width: 40%; /* Adjust button width for smaller screens */
+  }
+}
