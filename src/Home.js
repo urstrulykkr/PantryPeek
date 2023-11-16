@@ -35,10 +35,10 @@ const Home = () => {
       <header className="text-center">
         <div className="logo">
           <h1>Pantry Peek <img className="logo-img" src={logoImg}></img></h1>
-         
+
         </div>
 
-        
+
       </header>
 
       <Element name="home">
@@ -51,6 +51,15 @@ const Home = () => {
             </ScrollLink>
             <Link className='link' to="/product">Find Now !</Link>
           </h2>
+          <br></br>
+          {/* <div>
+            <h2>Benefits</h2>
+            <ul className='benefits-list'>
+              <li>Plan and cut costs on your shopping list</li>
+              <li>Avoid long walks and waits</li>
+              <li>Pre-plan your cooking - save time</li>
+            </ul>
+          </div> */}
         </div>
       </Element>
 

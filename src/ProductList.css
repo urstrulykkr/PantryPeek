@@ -19,3 +19,7 @@ select {
     display: flex;
     flex-flow: row wrap;
 }
+
+.product-header {
+    text-align: center;
+}

@@ -4,7 +4,6 @@
   height: 5.5rem;
   display: flex;
   align-items: center;
-  color: #53bb64;
   font-size: 2rem;
   margin: 20px;
   margin-top: 0 !important;
@@ -38,10 +37,12 @@
 
 .sub-intro {
   font-size: 4rem;
+  
 }
 
+
 .find-button {
-  background: linear-gradient(135deg, #92d362, #16f03a);
+  background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
   color: #fff;
   border: none;
   padding: 10px 20px;

@@ -37,7 +37,7 @@ const DateTimeDisplay = () => {
   return (
     <div>
       <Link to="/">Back</Link>
-      <h2>UMD Pantry Stock Availability on {DateTimeDisplay()[0]} at {DateTimeDisplay()[1]}</h2>
+      <h2 className='product-header'>UMD Pantry Stock Availability on {DateTimeDisplay()[0]} at {DateTimeDisplay()[1]}</h2>
       <CategoryFilter
         categories={categories}
         selectedCategory={categoryFilter}
